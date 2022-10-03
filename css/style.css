@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+
+
+
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+body {
+  line-height: 1;
+  font-family: Lato;
+  background: url("../img/icons/greenup.png") 0 5570px / 100px 100px no-repeat, url("../img/icons/red.png") 0 7250px / 100px 100px no-repeat, url("../img/icons/red.png") 0 4550px / 100px 100px no-repeat, url("../img/icons/red.png") 0 5050px / 100px 100px no-repeat, url("../img/icons/red.png") 0 2850px / 100px 100px no-repeat, url("../img/icons/red.png") 0 2450px / 100px 100px no-repeat, url("../img/icons/green.png") 1250px 3300px / 100px 100px no-repeat, url("../img/icons/red.png") 0 1250px / 100px 100px no-repeat, url("../img/icons/Groucircle.png") right 3180px no-repeat, url("../img/icons/dots.png") 435px 1300px no-repeat, url("../img/icons/shapes.png") 1850px 1430px / 80px 67px no-repeat, url("../img/icons/greenup.png") 200px 4000px / 100px 100px no-repeat, url("../img/icons/shapess.png") 240px 4080px no-repeat;
+
+}
+
+.header {
+  max-width: 1230px;
+  margin: 0 auto;
+  margin-top: 20px;
+  min-height: 16px;
+  display: flex;
+  background: url("../img/icons/blue.png") 60px 40px / 100px 100px no-repeat, url("../img/icons/blue.png") 1040px 30px / 100px 100px no-repeat, url("../img/icons/Vector.png") 0 13px / 104px 22px no-repeat, url("../img/icons/Vectorx.png") 108px 13px / 22px 22px no-repeat, url("../img/icons/Profile.png") 1080px 15px no-repeat;
+
+  font-weight: 700;
+  line-height: 25.6px;
+  margin-bottom: 80px;
+}
+
+.about_us {
+  margin-left: 190px;
+  margin-right: 40px;
+  padding-top: 13px;
+  color: #FF3F3A;
+
+}
+
+.courses {
+  margin-right: 40px;
+  padding-top: 13px;
+  color: #424551;
+}
+
+.events {
+  margin-right: 40px;
+  padding-top: 13px;
+  color: #424551;
+}
+
+.blog {
+  margin-right: 40px;
+  padding-top: 13px;
+  color: #424551;
+
+}
+
+.contacts {
+  margin-right: 225px;
+  padding-top: 13px;
+  color: #424551;
+}
+
+.buttonget {
+  width: 206px;
+  height: 52px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 13px;
+  color: #FFFFFF;
+}
+
+.buttonregister {
+  padding-top: 13px;
+  margin-left: 64px;
+  color: #424551;
+}
+
+
+.main {
+  margin-bottom: 180px;
+  background: url("../img/icons/green.png") 800px 200px / 100px 100px no-repeat;
+}
+
+
+.buttons {
+  display: flex;
+
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  margin-bottom: 48px;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h3,
+h4 {
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+h4 {
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  margin-bottom: 8px;
+  color: #1E212C;
+}
+
+h6 {
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.chtoto {
+  max-width: 1230px;
+  margin: 0 auto;
+  margin-bottom: 180px;
+  background: url("../img/illustration.png") 762px 35px / 465px 400px no-repeat;
+}
+
+.about__container {
+
+  line-height: 160%;
+  font-weight: 400;
+  margin-bottom: 60px;
+  color: #424551;
+}
+
+.about {
+  max-width: 600px;
+}
+
+.button_explore {
+  width: 192px;
+  height: 52px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #FF3F3A;
+  padding: 16px;
+  margin-right: 24px;
+  color: #FF3F3A;
+}
+
+.button_browse {
+  width: 192px;
+  height: 52px;
+  border-radius: 4px;
+  text-align: center;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  padding: 16px;
+  color: white;
+}
+
+.content {
+  max-width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 180px;
+
+
+
+}
+
+.you {
+  display: flex;
+  margin-bottom: 32px;
+  background: url("../img/icons/blueup.png") 140px 0px / 100px 100px no-repeat;
+}
+
+#you {
+  width: 52px;
+  height: 52px;
+  margin-right: 16px;
+}
+
+.red {
+  color: #FF3F3A;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  padding-left: 16px;
+  color: black;
+}
+
+.image {
+  margin-right: 135px;
+}
+
+#workstation {
+  width: 810px;
+  height: 500px;
+}
+
+.spisok {
+  margin-top: 180px;
+}
+
+#title {
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  padding-top: 15px;
+
+}
+
+.core {
+  max-width: 1230px;
+  margin: 0 auto;
+  margin-bottom: 180px;
+  background: url("../img/icons/blueup.png") 1150px 130px / 100px 100px no-repeat;
+
+
+}
+
+.core__content {
+  display: flex;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  padding-top: 72px;
+  background: url("../img/icons/ic-structure.png") 96px 0 / 48px 48px no-repeat, url("../img/icons/Grou2p.png") 436px 0 / 48px 48px no-repeat, url("../img/icons/ic-target.png") 770px 0 / 48px 48px no-repeat, url("../img/icons/ic-calendar.png") 1090px 0 / 48px 48px no-repeat;
+}
+
+.core__content div p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787A80;
+  margin-top: 8px;
+
+
+}
+
+.core__content div:not(:last-child) {
+  margin-right: 90px;
+}
+
+.directions {
+  max-width: 1230px;
+  margin: 0 auto;
+  margin-bottom: 180px;
+
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.tiles img {
+  width: 390px;
+  height: 200px;
+
+
+}
+
+.tiles p:not(:last-child) {
+  border: 1px solid rgba(128, 128, 128, 0.534);
+  border-top: none;
+  border-bottom: none;
+  max-width: 390px;
+  padding: 0 24px 20px 24px;
+  padding-top: 72px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #787A80;
+}
+
+.tiles p:last-child {
+  font-weight: 700;
+  line-height: 160%;
+  border: 1px solid rgba(128, 128, 128, 0.534);
+  border-top: none;
+  padding-left: 24px;
+  padding-bottom: 24px;
+
+
+}
+
+#end {
+  width: 390px;
+  height: 420px;
+}
+
+.marketing p:not(:last-child) {
+  background: url("../img/icons/badge1.png") 24px 24px no-repeat;
+}
+
+.management p:not(:last-child) {
+  background: url("../img/icons/badge.png") 24px 24px no-repeat;
+}
+
+.hr p:not(:last-child) {
+  background: url("../img/icons/badge2.png") 24px 24px no-repeat;
+}
+
+.design p:not(:last-child) {
+  background: url("../img/icons/badge3.png") 24px 24px no-repeat;
+}
+
+.development p:not(:last-child) {
+  background: url("../img/icons/Development.png") 24px 24px no-repeat;
+}
+
+.tiles div {
+  margin-bottom: 30px;
+}
+
+.tiles p:last-child {
+  background: url(../img/icons/Line.png) 134px 9px no-repeat;
+}
+
+.tiles p:last-child:hover {
+  color: red;
+}
+
+.process {
+  max-width: 1230px;
+  margin: 0 auto;
+
+  text-align: left;
+  margin-bottom: 192px;
+  background: url("../img/icons/green.png") 740px 200px / 100px 100px no-repeat, url("../img/illustration1.png") 680px 60px / 525px 620px no-repeat;
+}
+
+.process h2,
+.process h6 {
+  text-align: left;
+}
+
+.process__contant {
+  max-width: 495px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787A80;
+}
+
+.process__contant p,
+h5 {
+  padding-left: 40px;
+}
+
+.process__contant p {
+  margin-bottom: 32px;
+}
+
+.process .process__contant .step {
+  font-weight: 900;
+  padding-left: 40px;
+  font-size: 12px;
+  line-height: 150%;
+  color: #787A80;
+  margin-bottom: 2px;
+  background: url("../img/icons/ellipse.png") no-repeat;
+}
+
+.meet__content {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+.meet__content div {
+  margin-bottom: 60px;
+}
+
+.meet {
+  max-width: 1230px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.testimonials {
+  margin: 0 auto;
+
+  background: url("../img/icons/blueup.png") 1400px 1100px / 100px 100px no-repeat, url("../img/icons/greenup.png") 0 0px / 100px 100px no-repeat, url("../img/icons/red.png") 0 1150px / 100px 100px no-repeat, url("../img/icons/whitecircles.png") 75px 75px no-repeat, url("../img/icons/whiteshapes.png") 990px 125px no-repeat, url("../img/icons/whitedots.png") 145px 548px no-repeat, url("../img/icons/whiteshapess.png") 80px 970px no-repeat, url("../img/icons/whitecircls.png") right 600px no-repeat, #F4F5F7;
+  text-align: center;
+}
+
+.str {}
+
+.liner,
+.linel {
+  padding-top: 160px;
+}
+
+.testimonials h6 {
+  padding-top: 100px;
+}
+
+.testimonials__container {
+  padding-bottom: 240px;
+}
+
+#companies {
+  padding-bottom: 100px;
+}
+
+.forflex {
+  display: flex;
+}
+
+.blog {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding-bottom: 180px;
+}
+
+.blog h6 {
+  text-align: left;
+  padding-top: 100px;
+}
+
+.blog .buttonget {
+  margin: 130px 0 0 770px;
+}
+
+.blog__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.pink {
+  background: url("../img/icons/greenup.png") 1200px 270px / 100px 100px no-repeat, url("../img/icons/greenup.png") 100px 270px / 100px 100px no-repeat, url("../img/finillustration.png") bottom left no-repeat, url("../img/finillustration.png") bottom right no-repeat, rgba(246, 191, 191, 0.601);
+  margin: 0 auto;
+
+}
+
+.pink__content {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.pad {
+  display: flex;
+  padding: 60px 28.5% 150px 28.5%;
+}
+
+.pad img {
+  margin-right: 24px;
+}
+
+footer {
+  background: url("../img/Footer.png") 0 0 / 1920px 396px no-repeat;
+  background-size: cover;
+
+}
+
+
+.foter {
+  padding: 0 100px;
+
+  min-height: 300px;
+
+}
+
+.strelka {
+  width: 1000px;
+  height: 200px;
+  background: url("../img/icons/up.png") 300px 0 / 100px 100px no-repeat, url("../img/icons/blue.png") 400px 0 / 100px 100px no-repeat;
+}
